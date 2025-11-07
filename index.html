@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="desmos.js"></script>
+
+<!-- Step 2: add an element to the page -->
+<div id="calculator" style="width: 600px; height: 400px;"></div>
+
+<!-- Step 3: add the following lines of javascript -->
+<script>
+    var elt = document.getElementById('calculator');
+    var calculator = Desmos.GraphingCalculator(elt);
+</script>
+</body>
+</html>
